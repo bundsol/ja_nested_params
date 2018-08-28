@@ -25,7 +25,7 @@ import Enum, only: [with_index: 1]
 
   @doc """
   Accept an Json Api-ish document that may have an `included` array, which may
-  also caontain new resources that conform to the clauses explained above.
+  also contain new resources that conform to the clauses explained above.
   
 
   """
