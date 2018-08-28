@@ -12,7 +12,7 @@ defmodule JaNestedParams.Mixfile do
       description: description()  ,
       package: 
         [ licenses: ["BSD 3-Clause"],
-          files: ["LICENSE", "lib"] ,
+          files: ["LICENSE", "lib", "mix.exs"] ,
           links: %{"GitHub" => "https://github.com/bundsol/ja_nested_params"}, 
           maintainers: ["Salvador Sanchez"]
         ] ,
