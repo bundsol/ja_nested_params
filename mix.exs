@@ -5,7 +5,8 @@ defmodule JaNestedParams.MixProject do
     [
       app: :ja_nested_params,
       version: "0.0.1",
-      elixir: "~> 1.6",
+      #elixir: "~> 1.6",
+      elixir: "~> 1.2",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: description()  ,
