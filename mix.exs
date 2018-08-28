@@ -12,10 +12,10 @@ defmodule JaNestedParams.MixProject do
       package: 
         [ licenses: ["BSD 3-Clause"],
           files: ["LICENSE"] ,
-          links: %{"GitHub" => "https://github.com/bundsol/ja_nested_params.git"}, 
+          links: %{"GitHub" => "https://github.com/bundsol/ja_nested_params"}, 
           maintainers: ["Salvador Sanchez"]
         ] ,
-      source_url: "https://github.com/bundsol/ja_nested_params.git"
+      source_url: "https://github.com/bundsol/ja_nested_params"
     ]
   end
 
