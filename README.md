@@ -4,10 +4,10 @@ Parser for nested params from Json Api document with `included` object.
 
 ## Motivation
 
-When the Json Api describes a `compound document`, it does so in the scenario of
-data being fetched from the server. When it talks about client side data sent
-to the back end, it expects a single resource object, without the `included` 
-array.
+When the Json Api specification describes a `compound document`, it does so in 
+the scenario of data being fetched from the server. When it talks about client 
+side data sent to the back end, it expects a single resource object, without 
+the `included` array.
 As it is the case in Elixir applications, you may send a composite object 
 to the server that can delete related objects, update member entities and create
 new objects in a single swoop. Ecto's changeset will accept a `map` of any 
