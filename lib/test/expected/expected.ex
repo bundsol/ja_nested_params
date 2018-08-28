@@ -1,4 +1,5 @@
 defmodule JaNestedParamsTest.Expected do
+@moduledoc false
 
   alias JaNestedParamsTest.SeedObject
   

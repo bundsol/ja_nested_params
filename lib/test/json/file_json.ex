@@ -1,5 +1,5 @@
 defmodule JaNestedParamsTest.FileJson do
-
+@moduledoc false
 
   def file01 do 
     %{"type" => "file" ,

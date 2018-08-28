@@ -1,4 +1,5 @@
 defmodule JaNestedParamsTest.SeedObject do
+@moduledoc false
 
   def renee, do: %{  id: 777 ,     name: "Renee Durand"   }
     

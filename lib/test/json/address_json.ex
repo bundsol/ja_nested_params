@@ -1,4 +1,5 @@
 defmodule JaNestedParamsTest.AddressJson do
+@moduledoc false
 
   def address01 do
     %{"type" => "address" ,

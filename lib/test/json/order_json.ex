@@ -1,4 +1,5 @@
 defmodule JaNestedParamsTest.OrderJson do
+@moduledoc false
   
   alias JaNestedParamsTest.AddressJson
   alias JaNestedParamsTest.OrderAssyJson

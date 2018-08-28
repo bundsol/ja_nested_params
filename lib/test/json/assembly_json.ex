@@ -1,5 +1,6 @@
 defmodule JaNestedParamsTest.AssemblyJson do
-  
+@moduledoc false
+
   alias JaNestedParamsTest.AssyFileJson
   import JaNestedParamsTest.JsonApiUtility 
   
