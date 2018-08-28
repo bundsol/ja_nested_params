@@ -1,4 +1,4 @@
-defmodule JaNestedParams.MixProject do
+defmodule JaNestedParams.Mixfile do
   use Mix.Project
 
   def project do
@@ -6,7 +6,8 @@ defmodule JaNestedParams.MixProject do
       app: :ja_nested_params,
       version: "0.0.1",
       #elixir: "~> 1.6",
-      elixir: "~> 1.2",
+      elixir: "~> 1.1",
+      build_embedded: Mix.env == :prod, 
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: description()  ,
