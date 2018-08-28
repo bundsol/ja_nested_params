@@ -5,7 +5,6 @@ defmodule JaNestedParams.Mixfile do
     [
       app: :ja_nested_params,
       version: "0.0.1",
-      #elixir: "~> 1.6",
       elixir: "~> 1.1",
       build_embedded: Mix.env == :prod, 
       start_permanent: Mix.env() == :prod,
@@ -13,7 +12,7 @@ defmodule JaNestedParams.Mixfile do
       description: description()  ,
       package: 
         [ licenses: ["BSD 3-Clause"],
-          files: ["LICENSE"] ,
+          files: ["LICENSE", "lib"] ,
           links: %{"GitHub" => "https://github.com/bundsol/ja_nested_params"}, 
           maintainers: ["Salvador Sanchez"]
         ] ,
