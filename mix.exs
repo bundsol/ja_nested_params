@@ -11,8 +11,10 @@ defmodule JaNestedParams.MixProject do
       description: description()  ,
       package: 
         [ licenses: ["BSD 3-Clause"],
-          files: ["LICENSE"]
-        ]
+          files: ["LICENSE"] ,
+          links: %{"GitHub" => "https://github.com/bundsol/ja_nested_params.git"}
+        ] ,
+      source_url: "https://github.com/bundsol/ja_nested_params.git"
     ]
   end
 
